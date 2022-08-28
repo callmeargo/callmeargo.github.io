@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Life+Savers:wght@700;800&family=Rubik+Distressed&family=Silkscreen&display=swap");
+.cpButton {
+  background-color: salmon;
+  height: 40px;
+  width: 140px;
+  background-color: #040303;
+  color: white;
+}
+.cpButton i {
+  padding-left: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.cpJumbotron {
+  background-color: #FCF6B1;
+  height: 90vh;
+}
+.cpJumbotron .navbarCp {
+  font-family: "Lekton";
+  transform: translateY(-100%);
+}
+.cpJumbotron .navbarCp .logoCp {
+  font-family: "life Savers";
+  font-size: 30px;
+  font-weight: 800;
+}
+.cpJumbotron .navbarCp ul {
+  font-size: 20px;
+}
+.cpJumbotron .navbarCp ul li a {
+  color: black;
+}
+.cpJumbotron .cpJumbo {
+  margin-top: 80px;
+}
+.cpJumbotron .cpJumbo .littleSosmed {
+  transform: translateX(-100%);
+}
+.cpJumbotron .cpJumbo .centerJumbotron {
+  font-family: "Lekton";
+  transform: translateY(-200%);
+}
+.cpJumbotron .cpJumbo .centerJumbotron .hello {
+  font-size: 38px;
+  line-height: 10px;
+}
+.cpJumbotron .cpJumbo .centerJumbotron h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.cpJumbotron .cpJumbo .centerJumbotron .def {
+  font-size: 24px;
+}
+.cpJumbotron .cpJumbo .rightJumbotron {
+  transform: translateX(100%);
+}
+.cpJumbotron .cpJumbo .rightJumbotron .press {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transform: translateY(-30%);
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background: #F7B32B;
+  border: 6px solid #FCF6B1;
+}
+.cpJumbotron .cpJumbo .rightJumbotron .square {
+  width: 200px;
+  height: 200px;
+  background-image: url("/img/jene-stephaniuk--MCrF6hnojU-unsplash.jpg");
+  border-radius: 50% 0px 0px 50%;
+  background-size: contain;
+}
+
+.carous .product-cont .product img {
+  width: 300px;
+}
+
+.potential {
+  transform: translateY(-50%);
+}
+.potential .d-lg-flex .buildWeb {
+  opacity: 1;
+  transform: translateX(-100vw);
+}
+.potential .d-lg-flex .uxui {
+  opacity: 0;
+  transform: translateX(100vw);
+}
+.potential .d-lg-flex .buildWeb, .potential .d-lg-flex .uxui {
+  width: 200px;
+  height: 200px;
+  background-color: #040303;
+}
+.potential .d-lg-flex .buildWeb .pwrap i, .potential .d-lg-flex .uxui .pwrap i {
+  font-size: 38px;
+  color: white;
+}
+.potential .d-lg-flex .buildWeb .pwrap h2, .potential .d-lg-flex .uxui .pwrap h2 {
+  font-family: "Lekton";
+  color: white;
+  font-size: 28px;
+}
+
+.slides .ourworksText {
+  font-family: "Lekton";
+  font-weight: bolder;
+  padding: 50px;
+  font-size: 38px;
+  transform: translateY(200px);
+  opacity: 0;
+}
+.slides .buttons {
+  transform: translateY(-200px);
+  opacity: 0;
+}
+.slides .buttons .prevs i, .slides .buttons .nexts i {
+  font-size: 28px;
+}
+.slides .slides-cont .bungkus {
+  transition: 1s;
+}
+.slides .slides-cont .bungkus .products {
+  transform: translateX(1500px);
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 5px;
+}
+.slides .slides-cont .bungkus .products.zoom {
+  margin: 0px 15px;
+}
+.slides .slides-cont .bungkus .products.zoom .texts {
+  transition: 1s;
+  opacity: 1;
+  padding: 10px;
+}
+.slides .slides-cont .bungkus .products.zoom .texts h2 {
+  font-size: 28px;
+  font-family: "Lekton";
+  color: white;
+  text-shadow: 0px 0px 2px black;
+  line-height: 25px;
+  font-weight: bold;
+}
+.slides .slides-cont .bungkus .products .texts {
+  opacity: 0;
+}
+.slides .slides-cont .bungkus .products img {
+  width: 300px;
+}
+.slides .slides-cont .bungkus .products.s-1 {
+  background-image: url("/img/austin-distel-wD1LRb9OeEo-unsplash.jpg");
+}
+.slides .slides-cont .bungkus .products.s-2 {
+  background-image: url("/img/ccars.jpg");
+}
+.slides .slides-cont .bungkus .products.s-3 {
+  background-image: url("/img/cytonn-photography-n95VMLxqM2I-unsplash.jpg");
+}
+.slides .slides-cont .bungkus .products.s-4 {
+  background-image: url("/img/samsung-memory-xS9KgKrR3ac-unsplash.jpg");
+}
+
+.getStarted {
+  background: #FCF6B1;
+  font-family: "Lekton";
+  margin-top: 80px;
+  min-height: 90vh;
+}
+.getStarted .gstext {
+  font-size: 38px;
+  font-weight: bolder;
+  transform: translateY(200px);
+  opacity: 0;
+}
+.getStarted .cardscp .cardcp {
+  transform: translateX(1500px);
+  width: 250px;
+  height: 300px;
+  background: #040303;
+  color: white;
+  margin: 10px;
+}
+.getStarted .cardscp .cardcp .price h2 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+.getStarted .cardscp .cardcp .price p {
+  line-height: 0px;
+}
+
+.footer {
+  background-color: #040303;
+  min-height: 300px;
+  color: white;
+  font-family: "Lekton";
+  padding: 30px 0px;
+}
+.footer .footerslide {
+  transform: translateX(1500px);
+}
+.footer .container .yel {
+  height: 150px !important;
+}
+.footer .container .yel a {
+  font-size: 42px;
+  font-family: "life Savers";
+  font-weight: 800;
+}
+.footer .container .yel h2 {
+  font-size: 22px;
+}
+.footer .container .cent {
+  padding: 0px 20px;
+}
+.footer .container .cent .services h2, .footer .container .cent .contact h2 {
+  font-size: 20px;
+}
+.footer .container .cent .services ul li, .footer .container .cent .contact ul li {
+  list-style: none;
+}
+.footer .container .gets {
+  background-color: white;
+  color: black;
+  min-height: 100px;
+  padding: 0px 20px;
+}
+.footer .container .gets .getxt p {
+  line-height: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .potential {
+    transform: translateY(0%);
+    margin-top: 50px;
+  }
+  .potential .d-lg-flex .buildWeb, .potential .d-lg-flex .uxui {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

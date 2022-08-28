@@ -1,0 +1,311 @@
+// fonts
+// @import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@700;800&family=Rubik+Distressed&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Life+Savers:wght@700;800&family=Rubik+Distressed&family=Silkscreen&display=swap');
+
+.cpButton {
+    background-color: salmon;
+    height: 40px;
+    width: 140px;
+    background-color: #040303;
+    color: white;
+    & i {
+        padding-left: 10px;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+// variable
+$bg1 : #FCF6B1;
+$bg2 : #F7B32B;
+
+.cpJumbotron {
+background-color: $bg1;
+height: 90vh;
+
+// navbar styles
+& .navbarCp {
+    font-family: 'Lekton';
+    transform: translateY(-100%);
+    & .logoCp {
+        font-family: 'life Savers';
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    & ul {
+        font-size: 20px;
+        & li {
+            & a {
+                color: black;
+            }
+        }
+    }
+
+}
+// end navbar styles
+
+
+
+// jumbotron content
+    & .cpJumbo {
+        margin-top: 80px;
+
+        & .littleSosmed {
+            transform: translateX(-100%);
+        }
+
+        & .centerJumbotron {
+            font-family: 'Lekton';
+            transform: translateY(-200%);
+            & .hello {
+                font-size: 38px;
+                line-height: 10px;
+            }
+            & h2 {
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 60px;
+            }
+            & .def {
+                font-size: 24px;
+            }
+        }
+
+        & .rightJumbotron {
+            transform: translateX(100%);
+            & .press {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                transform: translateY(-30%);
+                font-weight: 700;
+                font-size: 18px;
+                color: white;
+                background: $bg2;
+                border: 6px solid $bg1;
+            }
+            & .square {
+                width: 200px;
+                height: 200px;
+                background-image: url('/img/jene-stephaniuk--MCrF6hnojU-unsplash.jpg');
+                border-radius: 50% 0px 0px 50%;
+                background-size: contain;
+            }
+        }
+    }
+}
+
+
+.carous {
+    & .product-cont {
+        & .product {
+            & img {
+                width: 300px;
+            }
+        }
+    }
+}
+
+
+.potential {
+    transform: translateY(-50%);
+    & .d-lg-flex {
+        & .buildWeb {
+            opacity: 1;
+            transform: translateX(-100vw);
+        }
+        & .uxui {
+            opacity: 0;
+            transform: translateX(100vw);
+        }
+        & .buildWeb, & .uxui {
+            width: 200px;
+            height: 200px;
+            background-color: #040303;
+            // transition: .5s;
+            & .pwrap {
+                & i {
+                    font-size: 38px;
+                    color: white;
+                }
+                & h2 {
+                    font-family: 'Lekton';
+                    color: white;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.slides {
+    // width: 500px;
+    & .ourworksText {
+        font-family: 'Lekton';
+        font-weight: bolder;
+        padding: 50px;
+        font-size: 38px;
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    & .buttons {
+        transform: translateY(-200px);
+        opacity: 0;
+        & .prevs i, & .nexts i {
+            font-size: 28px;
+        }
+    }
+    & .slides-cont {
+        & .bungkus {
+            transition: 1s;
+            & .products {
+                transform: translateX(1500px) ;
+                width: 300px;
+                height: 300px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin: 5px;
+                &.zoom {
+                    // transform: scale(1.1);
+                    // transition: .5s;
+                    margin:0px 15px;
+                    & .texts {
+                        transition: 1s;
+                        opacity: 1;
+                        padding: 10px;
+                        & h2 {
+                            font-size: 28px;
+                            font-family: 'Lekton';
+                            color: white;
+                            text-shadow: 0px 0px 2px black;
+                            line-height: 25px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                & .texts {
+                    opacity: 0;
+                }
+                & img {
+                    width: 300px;
+                }
+                
+                &.s-1 {
+                    // padding: 12px;
+                    background-image: url('/img/austin-distel-wD1LRb9OeEo-unsplash.jpg');
+                    
+                }
+                &.s-2 {
+                    background-image: url('/img/ccars.jpg');
+                    
+                }
+                &.s-3 {
+                    background-image: url('/img/cytonn-photography-n95VMLxqM2I-unsplash.jpg');
+                    
+                }
+                &.s-4 {
+                    background-image: url('/img/samsung-memory-xS9KgKrR3ac-unsplash.jpg');
+                    
+                }
+            }
+        }
+    }
+}
+
+.getStarted {
+    background: $bg1;
+    font-family: 'Lekton';
+    margin-top: 80px;
+    min-height: 90vh;
+    & .gstext {
+        font-size: 38px;
+        font-weight: bolder;
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    & .cardscp {
+        & .cardcp {
+            transform: translateX(1500px);
+        width: 250px;
+        height: 300px;
+        background: #040303;
+        color: white;
+        margin: 10px;
+        & .price {
+            & h2 {
+                font-weight: bolder;
+                font-size: 40px;
+            }
+            & p {
+                line-height: 0px;
+            }
+        }
+    }
+
+    }
+}
+
+.footer {
+    background-color: #040303;
+    min-height: 300px;
+    color: white;
+    font-family: 'Lekton';
+    padding: 30px 0px;
+    & .footerslide {
+        transform: translateX(1500px);
+    }
+    & .container {
+        & .yel {
+            height: 150px !important;
+            & a {
+                font-size: 42px;
+                font-family: 'life Savers';
+                font-weight: 800;
+            }
+            & h2 {
+                font-size: 22px;
+            }
+        }
+        & .cent {
+            padding: 0px 20px;
+            & .services, & .contact {
+                & h2 {
+                    font-size: 20px;
+                }
+                & ul {
+                    & li {
+                        list-style: none;
+                    }
+                }
+            }
+        }
+        & .gets {
+            background-color: white;
+            color: black;
+            min-height: 100px;
+            padding: 0px 20px;
+            & .getxt {
+                & p {
+                    line-height: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .potential {
+        transform: translateY(0%);
+        margin-top: 50px;
+        & .d-lg-flex {
+            & .buildWeb, & .uxui {
+                width: 100%;
+            }
+        }
+    }
+  }
