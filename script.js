@@ -3,16 +3,6 @@ gsap.to('.centerJumbotron', {y:0, delay:.8});
 gsap.to('.littleSosmed', {x:0, delay:1});
 gsap.to('.rightJumbotron', {x:0, delay:1});
 
-$('.owl-carousel').owlCarousel({
-    items:4,
-    loop:false,
-    center:false,
-    margin:10,
-    URLhashListener:true,
-    autoplayHoverPause:true,
-    startPosition: 'URLHash'
-});
-
 
 var prev = document.querySelectorAll('.prevs');
 var next = document.querySelectorAll('.nexts');
@@ -22,7 +12,7 @@ var slideContent = document.querySelector('.bungkus');
 
 $(window).scroll(function(){
     var height = $(window).scrollTop();
-    console.log(height);
+    // console.log(height);
     if (height > 100) {
         gsap.to('.buildWeb', {x:0, opacity:1})
         gsap.to('.uxui', {x:0, opacity:1})
